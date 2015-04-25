@@ -52,3 +52,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Idea project files
+**/.idea/workspace.xml 
+**/.idea/tasks.xml
