@@ -16,3 +16,4 @@ The settings can be altered in the /src/settings.py file.
 ## Prerequisites
 - Python 2.7
 - Pygame 1.9.1 (http://www.pygame.org/)
+- To enable haptics you obviously need the appropriate hardware as well as pyserial 2.7 (https://pypi.python.org/pypi/pyserial)
