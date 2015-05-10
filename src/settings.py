@@ -13,11 +13,11 @@ FULLSCREEN = False
 
 # Game
 WINDOW_TITLE = "Battleships"
-GAME_MODE = TIME_MODE
+GAME_MODE = TURN_MODE
 AI_BOMB_INTERVAL = 3000		# time mode only: the time interval in which the AI drops bombs (in ms)
 AI_DELAY = 200				# turn mode only: the timethe AI waits after the player dropped a bomb (in ms)
 SHOW_ENEMY_BG = False		# reveals the location of the enemy's ships
-ENABLE_HAPTICS = True
+ENABLE_HAPTICS = False
 
 # Gameplay
 NUM_SQUARES = 10			# number of squares per battleground in each direction. Since battlegrounds are squared,

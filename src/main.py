@@ -237,7 +237,7 @@ class Game:
 			empty = True
 			pos = self.get_square(bg, app_x, app_y)
 			point = bg.square_at(pos).state
-			if point == SquareState.intact:
+			if point == SquareState.intact and ENABLE_HAPTICS:
 				self.haptics.set('9')
 			else:
 				adjacent = []
